@@ -1,0 +1,122 @@
+/* =============================
+   ESTILOS GENERALES
+   ============================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 9px; 
+}
+
+/* =============================
+   HEADER
+   ============================= */
+#header {
+    background-color: #7daf18;
+    padding: 4.9%;
+    border-bottom: 1em solid #2d2d2d;
+    margin-top: 1px;
+}
+
+#header img {
+    width: 20%;
+    height: auto;
+}
+
+/* =============================
+   TITULOS
+   ============================= */
+#title {
+    padding: 5%;
+}
+
+/* =============================
+   TITULOS EXACTOS DGII
+   ============================= */
+.title-orange {
+    color: #d58f00;
+    font-size: 1.50em !important;
+   font-weight: bold;
+    display: block;
+    margin-bottom: 0.15em;
+}
+
+.title-green {
+    color: #4b8101;
+    font-size: 2.05em !important;
+    display: block;
+}
+/* =============================
+   CONTENIDO
+   ============================= */
+#content {
+    padding: 0 5% 5% 5%;
+}
+
+/* =============================
+   TABLA DGII
+   ============================= */
+.data_table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+.data_table tr {
+    border-bottom: 1px solid #cccccc;
+}
+
+/* Texto izquierda (gris) */
+.left-col {
+    background: #efefef;
+    width: 37%;
+    font-size: 1.20em !important;
+    padding: 18px 16px !important; 
+    font-weight: 600;
+}
+
+/* Texto derecha */
+.right-col {
+    width: 63%;
+    font-size: 1.20em !important;
+    color: #555;
+    padding: 18px 16px !important;
+}
+
+/* =============================
+   FOOTER
+   ============================= */
+#footer {
+    padding: 14px !important;
+    font-size: 1.10em !important;
+    background: #cfcfcf;
+    color: #3a3a3a;
+    text-align: center;
+}
+
+/* =============================
+   RESPONSIVE
+   ============================= */
+@media (max-width: 600px) {
+
+    #header img {
+        width: 70%;
+    }
+
+    .title-orange { font-size: 16px; }
+    .title-green { font-size: 19px; }
+
+    .left-col, .right-col {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    #footer {
+        font-size: 13px;
+    }
+}
